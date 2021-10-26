@@ -17,11 +17,10 @@ int main() {
 	int a = 25, b = 10, c = 5, d = 1;		// номинал монеток.
 	int min = 0;
 	int cash;								// количество монеток.
-
+							
 	printf("Ведьмаку заплатите чеканной монетой (ОоОоО):");
 	scanf_s("%d", &cash);
 
-	while (cash > 0) {
 		while (cash >= a) {
 			cash = cash - a;
 			min += 1;
@@ -41,8 +40,6 @@ int main() {
 			cash = cash - d;
 			min += 1;
 		}
-
-	}
 
 	printf("Чтобы Геральд получает в награду: %d монет\n ", min);
 	return 0;
