@@ -27,20 +27,15 @@ int main() {
 			}
 			IsError = (number <= 0);
 
-			
-
 		} while (IsError);
 		
 
 		// algorithm / action
 		while (number > 10) {
-			    if (number > 10) {
-					a = number % 10;
-					printf("%d", a);
-					number = number / 10;
-				}
+			a = number % 10;
+			printf("%d", a);
+			number = number / 10;	
 		}
-
 
 		// result
 		printf("%d\n", number);
