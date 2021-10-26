@@ -33,6 +33,7 @@ int main() {
 	case 1:									// Режим игры 1.
 		srand((unsigned int)time(0));
 		x = (rmax - rmin) * rand() / RAND_MAX;
+
 		do {
 			printf("Введите чиcло от 1 до 1000, которе по вашему мнению, является ответом: ");
 			scanf_s("%d", &y);
@@ -53,7 +54,6 @@ int main() {
 		break;
 
 	case 2:										// Режим игры 2.
-		
 		printf("Загадайте число от 1 до 1000 и введите его: ");
 		scanf_s("%d", &z);
 
@@ -88,10 +88,10 @@ int main() {
 		printf("Число попыток: %d", n);
 
 		break;
+
 	default:
 
 		break;
-
 	}
 	return 0;
 }

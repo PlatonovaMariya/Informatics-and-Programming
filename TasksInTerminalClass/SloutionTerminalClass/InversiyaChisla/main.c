@@ -29,7 +29,6 @@ int main() {
 
 		} while (IsError);
 		
-
 		// algorithm / action
 		while (number > 10) {
 			a = number % 10;
