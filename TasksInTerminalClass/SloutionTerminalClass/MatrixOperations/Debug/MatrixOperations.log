@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\user\Desktop\Новая папка (2)\Informatics-and-Programming\TasksInTerminalClass\SloutionTerminalClass\MatrixOperations\main.c(31,1): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  MatrixOperations.vcxproj -> C:\Users\user\Desktop\Новая папка (2)\Informatics-and-Programming\TasksInTerminalClass\SloutionTerminalClass\MatrixOperations\Debug\MatrixOperations.exe
