@@ -1,4 +1,4 @@
-// Copyright 2021 Mariya Platonova
+// Copyright 2021 Maria Platonova
 
 /*
 Постановка задачи.

@@ -1,10 +1,4 @@
-// Copyright 2021 Mariya Platonova
-#include <stdio.h>
-#include <math.h>
-#include <locale.h>
-#include <malloc.h>
-
-#define SIZE 10 
+// Copyright 2021 Maria Platonova
 
 /*Проект с остновными функциями массивов 
 Постановка задачи
@@ -15,7 +9,14 @@
 найти сумму элементов с чётными индексами 
 найти сумму элементов с чётными згначениями
 Поменять заданный элемент массива
-Развернуть массив*/
+Развернуть массив двумя способами*/
+
+#include <stdio.h>
+#include <math.h>
+#include <locale.h>
+#include <malloc.h>
+
+#define SIZE 10 
 
 int main() {
 
@@ -63,6 +64,7 @@ int main() {
 			sum_even_values = sum_even_values + mass[i];
 		}
 	}   
+
 	printf("\n Sum of even elements: %.1f", sum_even_el);
 	printf("\n Sum elementws with even index: %.1f", sum_even_indx);
 	printf("\n Sum of elements with even value: %.1f", sum_even_values);
@@ -96,7 +98,8 @@ int main() {
 	for (i = 0; i < size; i++) {
 		printf("%.1f ", mass[i]);
 	}
-		
+
 	free(mass);										//очищение памяти
+
 	return 0;
 }
