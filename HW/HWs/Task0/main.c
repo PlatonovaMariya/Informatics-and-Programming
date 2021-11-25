@@ -1,3 +1,5 @@
+//Copyright 2021 Maria Platonova
+
 #include <stdio.h>
 #include <math.h>
 #include <locale.h>
